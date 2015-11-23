@@ -1,0 +1,40 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 14
+VisualStudioVersion = 14.0.23107.0
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "EkzoPlugin.CoreSite", "TestWebApp\EkzoPlugin.CoreSite.csproj", "{A5B0E567-4CFA-4255-B027-8CFF85AE1501}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "EkzoPlugin.PluginManager", "EkzoPlugin.PluginManager\EkzoPlugin.PluginManager.csproj", "{3C869588-FAAE-422F-B6B6-D28429FE824A}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "EkzoPlugin.Infrastructure", "EkzoPlugin.Infrastructure\EkzoPlugin.Infrastructure.csproj", "{77E90C9B-2F13-4614-8286-22F7965613F5}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "TestPlugin", "TestPlugin\TestPlugin.csproj", "{C8D66B3B-8F0E-49C0-A406-C543AB880939}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{A5B0E567-4CFA-4255-B027-8CFF85AE1501}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{A5B0E567-4CFA-4255-B027-8CFF85AE1501}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{A5B0E567-4CFA-4255-B027-8CFF85AE1501}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{A5B0E567-4CFA-4255-B027-8CFF85AE1501}.Release|Any CPU.Build.0 = Release|Any CPU
+		{3C869588-FAAE-422F-B6B6-D28429FE824A}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{3C869588-FAAE-422F-B6B6-D28429FE824A}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{3C869588-FAAE-422F-B6B6-D28429FE824A}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{3C869588-FAAE-422F-B6B6-D28429FE824A}.Release|Any CPU.Build.0 = Release|Any CPU
+		{77E90C9B-2F13-4614-8286-22F7965613F5}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{77E90C9B-2F13-4614-8286-22F7965613F5}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{77E90C9B-2F13-4614-8286-22F7965613F5}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{77E90C9B-2F13-4614-8286-22F7965613F5}.Release|Any CPU.Build.0 = Release|Any CPU
+		{C8D66B3B-8F0E-49C0-A406-C543AB880939}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{C8D66B3B-8F0E-49C0-A406-C543AB880939}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{C8D66B3B-8F0E-49C0-A406-C543AB880939}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{C8D66B3B-8F0E-49C0-A406-C543AB880939}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal
